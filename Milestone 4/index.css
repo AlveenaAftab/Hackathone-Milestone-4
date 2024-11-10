@@ -1,0 +1,186 @@
+/* Styling form and resume sections */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: #FFFFFF;
+    }
+    
+    .resume-container{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 100%;
+    border: 1px solid #000000;
+    border-radius:10px;
+    box-shadow: 0px 0px 300px 3px lightgrey;
+    background-color: #FFFFFF;
+    }
+    
+    .resume-columns{
+    columns: 2;
+    display: flex;
+    }
+    
+    .profile-img {
+    width: 150px;
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid #000000;
+    }
+    
+    .col_01{
+    border: 1px solid #000000;
+    border-radius:10px;
+    width:50%;
+    height: 100%;
+    background-color:#000000;
+    padding: 14px 0px;
+    }
+    
+    .col_01 h1{
+    padding-left: 50px;
+    font-size:30px;
+    color:#FFFFFF;
+    margin-top: 40px;
+    }
+    
+    .col_01 h2{
+    padding-left: 50px;
+    font-size: 30px;
+    padding-top:60px;
+    color:#FFFFFF;
+    }
+    
+    .col_01 h3{
+    padding-left: 50px;
+    font-size: 30px;
+    padding-top:60px;
+    color:#FFFFFF;
+    }
+    
+    .col_01 p{
+    padding-left:50px;
+    color: #FFFFFF;
+    }
+    
+    i{
+    color:#FFFFFF;
+    }
+    
+    input{
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 7px;
+    color: #000000;
+    font-size: 20px;
+    }
+    
+    textarea{
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #000000;
+    font-size: 20px;
+    padding: 7px;
+    }
+    
+    .col_02 {
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    }
+    
+    .resume_heading{
+    font-size: 30px;
+    color: #000000;
+    }
+    
+    .col_02 h1{
+    font-size:40px;
+    color: #000000;
+    }
+    
+    .col_02 h2{
+    padding-top:200px;
+    font-size:30px;
+    color: #000000;
+    }
+    
+    .skills-i{
+    padding-left: 50px;
+    }
+    
+    .skills-i input{
+    margin-bottom: 4px;
+    border: 1px solid #000000;
+    }
+    
+    .skills-i i{
+    color:#000000;
+    }
+    
+    .skills-i input {
+    color: #000000;
+    }
+    
+    .col_02 h4{
+    font: bold;
+    color: #000000;
+    font-size: 24px;
+    }
+    
+    .radio-btn-h2{
+    margin-top: 40px;
+    }
+    
+    .radio-btn-input{
+    color: #000000;
+    font-size: 20px;
+    margin-top: 30px;
+    }
+    
+    button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:#000000;
+    color: #FFFFFF;
+    border:inherit;
+    border-radius: 10px;
+    margin-left:50px;
+    }
+    
+    button:hover {
+    background-color: #808080;
+    }
+    
+    #Curriculum-Vitae{
+    max-width: 77%;
+    margin: auto;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 20px;
+    margin-top: 10px;
+    background-color:#FFFFFF;
+    }
+    
+    #Curriculum-Vitae h2 {
+    color:#000000;
+    }
+    
+    h2{
+    font-size: 60px;
+    color: #000000;
+    }
+    
+    h3{
+    font-size: 30px;
+    color: #000000;
+    }
+    
+    p{
+    font-size: 24px;
+    color: #000000;
+    }

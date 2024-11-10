@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Editable Resume By Alveena Aftab</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+
+    <form id = "editable-resume">
+	<div class="resume-container">
+	<div class="resume-columns">
+
+            <!-- Resume Col_01 Start  -->
+			<div class="col_01">
+			
+			<h1>Contact</h1>
+			<p><i class="fa-solid fa-user"></i> | 
+			<input type="text" input type="text"  id = "name" placeholder="enter your  fullname" required />
+			</p>
+			 <p><i class="fa-solid fa-envelope"></i> | <input type="text"  id = "email" placeholder="enter your email" required/>
+		    </p>	
+			<p><i class="fa-solid fa-mobile-screen-button"></i> |  <input type="text"  id = "contact" placeholder="enter your contact no" required/>
+			</p> 
+		    <p><i class="fa-solid fa-location-dot"></i>  | <input type="text"  id = "location" placeholder="enter your location" required/>
+		    </p>
+
+
+		    <h2>Education</h2>
+		    <p><i class="fa-solid fa-school"></i> | <input type="text" id = "education" placeholder="enter your education"/>
+		    </p>
+
+
+
+		    <h3>Experience</h3>
+		    <p><textarea id = "experience" placeholder="enter your experience" required></textarea>
+		    </p> 
+
+            <button type="submit"><b>Generate Resume</b></button>
+
+        	</div>
+        	<!-- Resume Col_01 End -->
+
+
+
+
+            <!-- Resume Col_02 Start  -->
+			<div class="col_02">
+		        <p class="resume_heading">Editable-resume </p>
+				<h1>By Alveena Aftab</h1>
+				<hr>
+				<h4>Web Developer | Microbiologist</h4>
+
+
+
+           	<h2>Skills</h2>
+
+		    <p class="skills-i">
+		    <i class="fa-solid fa-circle-notch"></i>
+		    <input type="text" id = "skill_one" required>
+
+		    <br/>
+
+		    <i class="fa-solid fa-circle-notch">
+		    <input type="text" id = "skill_two" required>
+		    </i>
+
+		   <br/>
+
+		    <i class="fa-solid fa-circle-notch"></i>
+		    <input type="text" id = "skill_three" required>
+
+		    <br/>
+
+		    <i class="fa-solid fa-circle-notch"></i>
+		    <input type="text" id = "skill_four" required>
+
+		    <br/>
+
+		    <i class="fa-solid fa-circle-notch"></i>
+		    <input type="text" id = "skill_five" required> 
+			</div>
+
+
+
+	</div>	  
+	</div>
+
+	  <!-- Generated Button -->
+	<div id="Curriculum-Vitae">
+	</div>
+</form>
+
+</body>
+<script src = "index.js"></script>
+</html>
